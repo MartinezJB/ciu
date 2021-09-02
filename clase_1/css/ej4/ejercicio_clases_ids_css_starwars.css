@@ -1,0 +1,24 @@
+.fondo-del-imperio{
+    background-color: red;
+}
+.fondo-de-rebeldes{
+    background-color: blue;
+}
+#DarthVader {
+    font-size: larger;
+}
+#Luke {
+    font-style: italic;
+}
+.soldados-borde {
+    border: 2px black dashed;
+}
+.soldados-espaciado {
+    letter-spacing: 0.5em;
+}
+.apoyo {
+    text-align: center;
+}
+.naves {
+    text-transform: uppercase;
+}
