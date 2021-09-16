@@ -1,0 +1,16 @@
+.magia {
+    display: none;
+}
+
+img {
+    position: fixed;
+    top: 0;
+}
+
+#magic {
+    position: fixed;
+    top: 13rem;
+    right: 2rem;
+    width: 400px;
+    height: 400px;
+}

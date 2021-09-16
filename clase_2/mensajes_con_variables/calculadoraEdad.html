@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de edad</title>
+</head>
+<body>
+    <script>
+        let edad = parseInt(window.prompt("ingresa tu edad"));
+        Number.isInteger(edad) ? alert(`En ${edad} años hay ${calcularEdad(edad)} días`) : alert("Ingrese una edad valida");
+        function calcularEdad(edad) { return edad * 365 }
+    </script>
+</body>
+</html>
